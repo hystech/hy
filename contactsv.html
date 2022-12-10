@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Engineer Ambitiously - Savmor</title>
+	<link rel="stylesheet" href="Sv_style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="http://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+<section class="sub-header">
+	<nav>
+		<a href="savmor.html"><img src="image/bgs - advanvced-4.png"></a>
+		<div class="nav-links" id="navLinks">
+		<i class="fa fa-times" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="savmor.html">HOME</a></li>
+				<li><a href="aboutsv.html">ABOUT</a></li>
+				<li><a href="coursesv.html">COURSE</a></li>
+				<li><a href="blogsv.html">BLOG</a></li>
+				<li><a href="contactsv.html">CONTACT</a></li>
+			</ul>
+		</div>	
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	<h1>Contact Us</h1>
+
+</section>
+
+<!--------- contact us ------------->
+
+<!---------- about us content ----------->
+
+
+
+<section class="location">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7476344995093!2d103.8915223148398!3d1.3273999990318701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da17f57350dad7%3A0xa68c054fe20d5c23!2sSavmor%20Engineering%20Pte.%20Ltd.!5e0!3m2!1sms!2ssg!4v1662549656209!5m2!1sms!2ssg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contact-us">
+
+	<div class="row">
+		<div class="contact-col">
+			<div>
+				<i class="fa fa-home"></i>
+				<span>
+					<h5>3027 Ubi Road, #1</h5>
+					<p>Singapore 408720</p>
+				</span>
+			</div>
+			<div>
+				<i class="fa fa-phone"></i>
+				<span>
+					<h5>+65 66352166</h5>
+					<p>Monday to Saturday, 9AM to 6PM</p>
+				</span>
+			</div>
+			<div>
+				<i class="fa fa-envelope"></i>
+				<span>
+					<h5>sales@savmor.com.sg</h5>
+					<p>Email us your query</p>
+				</span>
+			</div>
+
+		</div>
+		<div class="contact-col">
+
+			<form action="form-handler.php" method="post">
+				<input type="text" name="name" placeholder="Enter your name" required>
+				<input type="text" name="email" placeholder="Enter your email address" required>
+				<input type="text" name="subject" placeholder="Enter your subject" required>
+				<textarea rows="8" name="message" placeholder="Message" required></textarea>
+				<button type="submit" class="hero-btn red-btn">Send Message</button>	
+			</form>
+
+
+
+		</div>
+	</div>
+
+</section>
+
+
+<!------Course-------->
+
+
+
+
+<!------- campus ------>
+
+
+
+
+<!---------Facilities-------->
+
+
+
+<!----- testimonials ----->
+
+
+
+<!--- Call To Action ---->
+
+
+
+<!----Footer----->
+
+<section class="footer">
+	<h4>About Us. If long sentence <br>therefore add br on here. </h4>
+	<p>About Our Company. </p>
+	<div class="icons">
+		<i class="fab fa-facebook"></i>
+		<i class="fab fa-twitter"></i>
+		<i class="fab fa-instagram"></i>
+		<i class="fab fa-linkedin"></i>
+	</div>
+	<p>Made with <i class="fa fa-heart"></i> by Savmor Tutorials</p>
+</section>
+
+<!--------JavaScript for Toggle Menu------->
+<script>
+	
+	var navlinks = document.getElementById("navLinks");
+	
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+
+</body>
+</html>
